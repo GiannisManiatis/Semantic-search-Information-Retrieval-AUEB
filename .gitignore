@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data & Large Files (Αγνοούμε τα αρχεία δεδομένων γιατί είναι μεγάλα)
+data/
+IR2025/
+*.csv
+*.txt
+*.ndjson
+
+# Elasticsearch (Αν έχεις κατεβάσει το ES μέσα στο repo)
+elasticsearch/
+logs/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Executables
+*.exe
