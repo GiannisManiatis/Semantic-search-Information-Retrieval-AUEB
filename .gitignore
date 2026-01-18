@@ -27,3 +27,6 @@ Thumbs.db
 
 # Executables
 *.exe
+
+# Library files
+*.dll
